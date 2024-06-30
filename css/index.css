@@ -1,0 +1,401 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #6FD36B;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+
+h1{font-size: 3em;}
+h2{font-size: 2.5em;}
+h3{font-size: 2em;}
+h4{font-size: 1.4em;}
+p{font-size: 1.5em;}
+
+li{
+    list-style: none;
+}
+
+button{
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: none;
+    background-color: #231F20;
+    padding: 10px 30px;
+}
+
+#contactos{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    animation-name: welcome-contact;
+    animation-duration: 1.5s;
+}
+@keyframes welcome-contact{
+    0% {top: -100%;}
+    100% { top: 10px;}
+}
+
+#logo{
+    font-size: 50px;
+    width: fit-content;
+    position: relative;
+    left: 85px;
+}
+
+#logo-span{
+    font-size: 20px;
+    position: relative;
+    background-color: #231F20;
+    color: #f5f5f5;
+    padding: 3px 20px;
+    top: 24px;
+    left: -70px;
+}
+
+#acerca-de{
+    position: relative;
+}
+
+
+#contacto{
+    position: relative;
+}
+
+
+
+.botones-contacto{
+    margin: 0px 10px;
+    right: 140px;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.botones-contacto:hover{
+    letter-spacing: 2.5px;
+    right: 130px;
+    filter: brightness(120%);
+}
+
+#acerca-de:hover{
+    
+}
+#contacto:hover{
+}
+
+#header{
+    /* outline: auto; */
+    height: 100px;
+}
+
+.line-division{
+    background-color: #231F20;
+    width: 77%;
+    height: 2px;
+    margin: auto;
+    animation-name: welcome-line1;
+    animation-duration: 2s;
+}
+@keyframes welcome-line1{
+    0% { width: 0%;}
+    100% {}
+}
+
+
+#tabs{
+    text-align: center;
+    font-size: 17px;
+    height: 25px;
+}
+
+a{
+    transition-property: all;
+    transition-duration: 400ms;
+}
+
+a:hover{
+    font-size: 18px;
+    font-style: italic;
+    border-bottom: solid 1px black;
+}
+
+#welcome{
+    background-color: #231F20;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0 149px;
+    padding: 0 6%;
+    font-size: 14px;
+    padding-bottom: 1%;
+    animation-name: welcome0;
+    animation-duration: 2s;
+}
+@keyframes welcome0 {
+    0% { background-color: #231f2000; color: transparent;}
+    80% { background-color: #231F20; color: transparent;}
+    100% { color: whitesmoke;}
+}
+
+
+p{
+    text-align: left;
+    position: relative;
+}
+
+.section-left{
+    background-color: whitesmoke;
+    width: 50%;
+    margin-left: 148px;
+    padding: 0% 3%;
+    font-size: 12px;
+    padding-bottom: 1%;
+    animation-name: welcome;
+    animation-duration: 2s;
+}
+
+@keyframes welcome{
+    0% {
+        translate: -150% 0;
+    }
+    100% {
+        translate: 0 0;
+    }
+
+}
+
+#vertical-line{
+    position: absolute;
+    width: 3px;
+    height: 997px;
+    background-color: #231F20;
+    right: 37.5%;
+    top: 364px;
+    animation-name: welcome-line2;
+    animation-duration: 2s; 
+}
+@keyframes welcome-line2 {
+    0%{height: 0%;}
+    100%{} 
+}
+
+#section-right{
+    background-color: whitesmoke;
+    width: 25%;
+    position: absolute;
+    right: 11.4%;
+    top: 364px;
+    padding: 10px 60px 24px 60px;
+    animation-name: welcome2;
+    animation-duration: 3s;
+}
+@keyframes welcome2{
+    0% {translate: 200% 0;}
+    100%{translate: 0 0;}
+}
+
+#right-text{
+    font-size: 17px;
+}
+.line-division2{
+    background-color: #231F20;
+    width: 100%;
+    height: 2px;
+    margin: auto;
+    animation-name: welcome-line1;
+    animation-duration: 4s; 
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.line-division3{
+    position: relative;
+    background-color: #231F20;
+    width: 50%;
+    height: 2px;
+    left: 11.3%;
+    animation-name: welcome-line1;
+    animation-duration: 3s; 
+}
+
+
+
+.autores{
+    background-color: #231F20;
+    width: 100%;
+    color: whitesmoke;
+    padding-bottom: 7%;
+}
+#dev-containers{
+    width: 77%;
+    height: 100%;
+    margin: auto;
+    padding-top: 1%;
+}
+.dev{
+    display:inline-block;
+    width: 330px;
+    color: whitesmoke;
+}
+#devs{
+    text-align: center;
+}
+.img-dev{
+    width: 200px;
+    margin-bottom: -10%;
+}
+.dev h3{
+    margin-bottom: 10px;
+    
+}
+
+#otros-devs-container{
+    color: #231F20;
+    text-align: center;
+}
+#otros-devs-container h2{
+    margin-bottom: -2.5%;
+}
+#otros-devs-container h3{
+    font-size: 25px;
+    color: #353031;
+}
+#otros-devs{
+    margin: auto;
+    width: 77%;
+    color: #353031;
+}
+#otros-devs p{
+    text-align: center;
+}
+
+#redes-sociales-contacto{
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 21px;
+    padding: 2% 23%;
+}
+#redes-sociales-contacto h2{
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+#redes-sociales-contacto img{
+    width: 100px;
+    margin: 0 5%;
+}
+
+#contacto2{
+    background-color: whitesmoke;
+    width: 65%;
+    position: relative;
+    top: -33px;
+    padding: 0 5%;
+    padding-bottom: 5%;
+    margin-bottom: -2.4%;
+}
+
+#nombre-form{
+    display: inline-block;
+    margin-right: 10%;
+}
+#apellido-form{
+    display: inline-block;
+}
+.form{
+    background-color: #231F20;
+    border: solid #181516;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 260px;
+    height: 30px;
+    font-size: 15px;
+}
+.form2{
+    background-color: #231F20;
+    border: solid #181516;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 593px;
+    height: 30px;
+    font-size: 15px;
+}
+#msg-form{
+    background-color: #231F20;
+    border: solid #181516;
+    color: whitesmoke;
+    font-weight: bold;
+    width: 593px;
+    height: 130px;
+    font-size: 15px;
+}
+#sumbit-form{
+    background-color: #231F20;
+    border: solid #181516;
+    color: whitesmoke;
+    font-size: 30px;
+}
+footer{
+    background-color: #231F20;
+    width: 100%;
+    height: 300px;
+    margin-top: 0;
+    color: whitesmoke;
+}
+
+#logo-footer{
+    font-size: 70px;
+    width: fit-content;
+    position: relative;
+    left: 85px;
+    color: whitesmoke;
+    top: 35%;
+}
+
+#logo-span-footer{
+    font-size: 30px;
+    position: relative;
+    background-color: #6FD36B;
+    color: #f5f5f5;
+    padding: 3px 20px;
+    top: 32px;
+    left: -70px;
+}
+#tarjetas-footer{
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-right: 0;
+    width: 60%;
+    position: relative;
+    top: -75px;
+    margin-bottom: -100px;
+}
+.tarjeta-footer{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 7%;
+    line-height: 2;
+}
+#redes-footer{
+    position: relative;
+    top: -90px;
+}
+#contacto-footer{
+    position: relative;
+    top: -108px;
+}
+#tarjetas-footer b{
+    font-size: 1.2em;
+}

@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+header {
+    background-color: #6FD36B;
+}
+
+
+h1{font-size: 2.7em;}
+h2{font-size: 2.3em;}
+h3{font-size: 2em;}
+h4{font-size: 1.4em;}
+p{font-size: 1.5em;}
+
+button{
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: transparent;
+    border: none;
+    background-color: #231F20;
+    padding: 10px 30px;
+}
+
+#contactos{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+
+}
+
+#logo{
+    font-size: 50px;
+    position: relative;
+    left: 85px;
+    transition-duration: 500ms;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#logo:hover{
+    filter: invert();
+}
+
+#logo-span{
+    font-size: 20px;
+    position: relative;
+    background-color: #231F20;
+    color: whitesmoke;
+    padding: 3px 20px;
+    top: 24px;
+    left: -70px;
+}
+
+#acerca-de{
+    position: relative;
+}
+
+
+#contacto{
+    position: relative;
+}
+
+
+
+.botones-contacto{
+    margin: 0px 10px;
+    right: 140px;
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.botones-contacto:hover{
+    letter-spacing: 2.5px;
+}
+
+#acerca-de:hover{
+    right: 130px;
+}
+#contacto:hover{
+    right: 130px;
+}
+
+#header{
+    /* outline: auto; */
+    height: 100px;
+}
+
+.line-division{
+    background-color: #231F20;
+    width: 100%;
+    height: 2px;
+    margin: auto;
+}
+
+#tabs{
+    height: 25px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #6FD36B;
+    border-bottom: 5px #231F20 solid;
+}
+
+a{
+    transition-property: font-size;
+    transition-duration: 200ms;
+}
+
+.tab{
+    font-size: 17px;
+    text-align: center;
+    background-color: #6FD36B;
+    margin: 1px 1px;
+    padding: 0 10px;
+    transition-duration: 500ms;
+    transition-property: all;
+
+}
+.tab:hover{
+    background-color: #231F20;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+#novedades-institucionales{
+    border-right: 5px #231F20 solid;
+    border-left: 5px #231F20 solid;
+    border-top: 5px #231F20 solid;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    background-color: whitesmoke;
+    color: #231F20;
+}
+
+.container{
+    max-width: 1000px;
+}
+#title{
+    font-size: 3.4em;
+}
+
+.subtitle{
+    font-size: 2.2em;
+}
+
+#section1{
+    width: 65%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10%;
+}
+.divline{
+    border: black solid 2px;
+}
+.divline2{
+    border: black solid 2px;
+}
+
+#section-right{
+    width: 23%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    right: 75px;
+}
+footer{
+    background-color: #231F20;
+    width: 100%;
+    height: 300px;
+    margin-top: 0;
+    color: whitesmoke;
+}
+
+#logo-footer{
+    font-size: 70px;
+    width: fit-content;
+    position: relative;
+    left: 85px;
+    color: whitesmoke;
+    top: 35%;
+}
+
+#logo-span-footer{
+    font-size: 30px;
+    position: relative;
+    background-color: #6FD36B;
+    color: #f5f5f5;
+    padding: 3px 20px;
+    top: 32px;
+    left: -70px;
+}
+#tarjetas-footer{
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-right: 0;
+    width: 60%;
+    position: relative;
+    top: -75px;
+    margin-bottom: -100px;
+}
+.tarjeta-footer{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 7%;
+    line-height: 2;
+}
+#redes-footer{
+    position: relative;
+    top: -90px;
+}
+#contacto-footer{
+    position: relative;
+    top: -108px;
+}
+#tarjetas-footer b{
+    font-size: 1.2em;
+}
